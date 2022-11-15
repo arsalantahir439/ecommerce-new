@@ -1,1 +1,49 @@
-$primary-color: blue;
+$main-secondary-color: #4b4b4b;
+$main-primary-color: #EE5A24;
+$black-color: #000;
+$grey-color: #aaa69d;
+$white-color: #fff;
+
+// 
+$success-color: #26de81;
+$error-color: #ff3838;
+$warning-color: #fed330;
+$info-color: #45aaf2;
+
+// font weights
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+
+// font sizes
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-22: 22px;
+$fs-24: 24px;
+$fs-26: 26px;
+$fs-28: 28px;
+$fs-30: 30px;
+$fs-32: 32px;
+$fs-34: 34px;
+$fs-36: 36px;
+$fs-38: 38px;
+$fs-40: 40px;
+
+//box shadows
+$shadow-light: rgba(75, 75, 75, 0.5);
+$shadow-dark: rgba(75, 75, 75, 1);
+
+// border color
+$border-color: $main-secondary-color;
+
+// border radius
+$br-4: 4px;
+$br-5: 5px;
+$br-8: 8px;
+$br-10: 10px;
+$br-50: 50px;
