@@ -1,9 +1,12 @@
+import { Container } from '@mui/material'
 import React from 'react'
 
-const Container = () => {
+const Containerbox = () => {
   return (
-    <div>Container</div>
+   <>
+  <Container></Container>
+   </>
   )
 }
 
-export default Container
+export default Containerbox
