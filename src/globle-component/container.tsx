@@ -23,18 +23,15 @@ export default function Containerbox() {
             <Card className='card-main' sx={{ width: '100%', p: 1 }}>
               <CardContent>
                 <img className='card-img' src={img} />
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                  Word of the Day
+                <Typography   >
+                HP laptop 15s-du1520TU | Intel Celetron N4020 Dual Core Processor
                 </Typography>
 
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                  adjective
-                </Typography>
-                <Typography variant="body2">
-                  well meaning and kindly.
-                  <br />
-                  {'"a benevolent smile"'}
-                </Typography>
+                
+               <span className='card-price'>
+                <p className='price'>RS. 2,000</p>
+               <p className='discount-price'>Rs.3,000</p>
+               </span>
               </CardContent>
               <Grid container  alignItems="center">
                   <Grid item lg={6} sx={{px:"8px"}}>
