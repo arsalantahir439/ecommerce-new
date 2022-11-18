@@ -30,7 +30,7 @@ export default function Containerbox() {
                 
                <span className='card-price'>
                 <p className='price'>RS. 2,000</p>
-               <p className='discount-price'>Rs.3,000</p>
+               <s><p className='discount-price'>Rs.3,000</p></s>
                </span>
               </CardContent>
               <Grid container  alignItems="center">
