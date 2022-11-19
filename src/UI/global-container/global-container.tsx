@@ -1,8 +1,16 @@
-import React from 'react'
+import { Grid } from '@mui/material';
+import React from 'react';
+import Header from '../../component/layout/header/header';
 
-const GlobalContainer = (props: any) => {
+interface Props {
+    className: string;
+    children?: any;
+}
+
+const GlobalContainer = (props: Props) => {
+    const { className, } = props;
     return (
-        <div className='container-wrapper'>
+        <div className={className}>
             {props.children}
         </div>
     )
