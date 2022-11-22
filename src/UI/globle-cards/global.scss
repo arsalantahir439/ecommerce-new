@@ -1,4 +1,4 @@
-@import './../scss/_variable.scss';
+@import '../../scss/_variable.scss';
 .container-wrapper{
     
     .card-main{
@@ -6,17 +6,16 @@
         border: 1px solid $shadow-light;
         border-radius: $br-8;
         box-shadow: 0px 0px 7px 1px $shadow-light;
+        transition: all 0.2s linear;
         &:hover{
-            transform: scale(1.01);
-          
-        }
+            transform: scale(1.02);
 
+        }
     }
     .card-img{
         width: 100%;
         height: 200px;
         object-fit: cover;
-    
     }
     .card-btn{
         background-color: $main-primary-color;
@@ -56,6 +55,5 @@
         margin: 0px 10px;
         font-size: $fs-14;
         margin-top: 5px
-    }
-    
+    }   
 }
