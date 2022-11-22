@@ -31,6 +31,7 @@ body {
         border-radius: $br-4;
         cursor: pointer;
         text-transform: capitalize !important;
+        transition: all 0.2s linear;
     }
 
     .btn-priamry {
@@ -49,13 +50,29 @@ body {
         }
     }
 
+    .btn-danger {
+        border: 2px solid red;
+        color: red;
+        background-color: transparent;
+
+        &:hover {
+            background-color: red;
+            color: $white-color;
+        }
+    }
+    
+
     .cursor-pointer {
         cursor: pointer;
     }
 
     // text capitalize
-    .text-capitalize{
+    .text-capitalize {
         text-transform: capitalize;
+    }
+
+    .text-uppercase {
+        text-transform: uppercase;
     }
 
 
@@ -72,10 +89,12 @@ body {
     .justify-end {
         justify-content: end;
     }
-    .justify-between{
+
+    .justify-between {
         justify-content: space-between;
     }
-    .flex-wrap{
+
+    .flex-wrap {
         flex-wrap: wrap;
     }
 }
