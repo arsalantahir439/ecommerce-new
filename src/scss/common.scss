@@ -12,6 +12,7 @@ body {
     p,
     ul {
         margin: 0;
+        padding: 0;
     }
 
     .main-bg-color {
@@ -30,20 +31,70 @@ body {
         border-radius: $br-4;
         cursor: pointer;
         text-transform: capitalize !important;
+        transition: all 0.2s linear;
     }
-    .btn-priamry{
+
+    .btn-priamry {
         background-color: $main-primary-color;
-        &:hover{
+
+        &:hover {
             box-shadow: 0px 0px 10px rgba(255, 159, 26, 0.5);
         }
     }
-    .btn-secondary{
+
+    .btn-secondary {
         background-color: $main-secondary-color;
-        &:hover{
+
+        &:hover {
             box-shadow: 0px 0px 10px rgba(75, 75, 75, 0.5);
         }
     }
-    .cursor-pointer{
+
+    .btn-danger {
+        border: 2px solid red;
+        color: red;
+        background-color: transparent;
+
+        &:hover {
+            background-color: red;
+            color: $white-color;
+        }
+    }
+    
+
+    .cursor-pointer {
         cursor: pointer;
+    }
+
+    // text capitalize
+    .text-capitalize {
+        text-transform: capitalize;
+    }
+
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+
+
+    // flex 
+
+    .d-flex {
+        display: flex;
+    }
+
+    .align-center {
+        align-items: center;
+    }
+
+    .justify-end {
+        justify-content: end;
+    }
+
+    .justify-between {
+        justify-content: space-between;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
     }
 }

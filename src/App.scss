@@ -1,0 +1,10 @@
+@import './scss/_variable.scss';
+@import './scss/common.scss';
+
+.main-bg-color {
+    display: block;
+
+    .global-container {
+        padding: 20px;
+    }
+}
